@@ -1,0 +1,75 @@
+.navbar{
+    background-color: #b1deff;
+    height: 60px;
+}
+
+.form-inline{
+    position: absolute;
+    right: 150px;
+}
+
+.login-block{
+    margin-top: 2%;
+}
+
+.container{
+    background:#fff;
+    border-radius: 10px;
+    box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.popup-form{
+    margin-top: 7px;
+}
+
+.login-block{
+    background: #DE6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f5e1c8, #531010);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f5e1c8, #531010); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7*/
+    float:left;
+    width:100%;
+    padding : 5% 0;
+}
+
+.login-sec{
+    padding: 25px 25px;
+    position:relative;
+}
+
+.login-sec h2{
+    /* margin-bottom:30px; */
+    /* font-weight:800; */
+    font-size:20px;
+}
+
+.login-sec .copy-text{
+    position:absolute;
+    width:80%; bottom:20px;
+    font-size:13px;
+    text-align:center;
+}
+.login-sec .copy-text i{
+    color:#FEB58A;
+}
+
+.login-sec .copy-text a{
+    color:#33b4ff;
+}
+
+.login-sec h2:after{
+    content:" ";
+    width:100px;
+    height:5px;
+    /* background:#FEB58A; */
+    display:block;
+    margin-top:20px;
+    border-radius:3px;
+    margin-left:auto;
+    margin-right:auto
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}

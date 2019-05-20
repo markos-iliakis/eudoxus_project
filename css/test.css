@@ -1,0 +1,55 @@
+.cards-container{
+    position: absolute;
+    top: 15%;
+}
+
+/* .container{
+    margin-left: 0%;
+    padding-left: 0%;
+} */
+
+.navbar{
+    background-color: #b1deff;
+    height: 60px;
+}
+
+a {
+    color: inherit;
+}
+
+
+.user-container{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 60px 60px;
+    padding: 0;
+    min-height: 25vh;
+    max-height: 25vh;
+    height: 25vh;
+    width: 25%;
+    display: inline-block;
+}
+
+.user-photo-container {
+    max-width: 100%;
+}
+
+.user-container img{
+    max-width: 100%;
+    max-height: 25vh;
+    min-height: 25vh;
+    height: 25vh;
+    overflow: auto;
+}
+
+
+.btn-entrance{
+    position: absolute;
+    right: 25px;
+}
+
+.info-container{
+    position: relative;
+    top: 100px;
+}

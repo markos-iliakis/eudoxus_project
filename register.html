@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/register.css">
+  <script type="text/javascript" src="js/register.js"></script>
+</head>
+
+<body style="background-color:#ededed">
+    <nav class="navbar navbar-expand-lg navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="index.php" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">
+                    Αρχική Σελίδα
+                </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Φοιτητές
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="info.php">Πληροφορίες</a>
+                        <a class="dropdown-item" href="#">Διαχείριση Δηλώσεων</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Εκδότες
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Πληροφορίες</a>
+                        <a class="dropdown-item" href="#">Διαχείριση Δηλώσεων</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Γραμματείες
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Πληροφορίες</a>
+                        <a class="dropdown-item" href="#">Διαχείριση Δηλώσεων</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Διαθέτες
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Πληροφορίες</a>
+                        <a class="dropdown-item" href="#">Διαχείριση Δηλώσεων</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Διανομείς
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Πληροφορίες</a>
+                        <a class="dropdown-item" href="#">Διαχείριση Δηλώσεων</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Βιβλιοθήκες
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Πληροφορίες</a>
+                        <a class="dropdown-item" href="#">Διαχείριση Δηλώσεων</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+    </nav>
+    <section class="login-block">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6 login-sec">
+                   <h2 class="text-center">Εγγραφή</h2>
+                   <form class="register-form" action="register.php" method="post">
+                       <div class="form-group">
+                           <label for="email" class="email">Email</label>
+                           <input type="text" class="form-control" placeholder="Username" name="email" required>
+
+                       </div>
+                       <div class="form-group">
+                           <label for="psw" class="psw">Password</label>
+                           <input type="password" class="form-control" placeholder="Password" name="psw" required>
+                       </div>
+
+                       <div class="form-group">
+                           <label for="psw" class="psw">Refill password</label>
+                           <input type="password" class="form-control" placeholder="Password" name="psw" required>
+                       </div>
+
+
+                       <div class="user-type">
+                           <label for="user-type">Ο ρόλος σας στον Εύδοξο είναι ως:</label>
+                            <select name="user-type" class="form-control user-control" id="user-role">
+                                <option value="" disabled selected>Επιλέξτε..</option>
+                               <option value="student">Φοιτητής</option>
+                               <option value="publisher">Εκδότης</option>
+                               <option value="secretary">Γραμματεία Τμήματος</option>
+                               <option value="provider">Διαθέτης Συγγραμάτων</option>
+                               <option value="distributor">Διανομέας Συγγραμάτων</option>
+                               <option value="library">Βιβλιοθήκη</option>
+                             </select>
+                       </div>
+
+                       <div class="extra-form">
+                           <div class="d-none department " id="student-extra-form" >
+
+                               <div class="form-group">
+                                   <label for="firstname" class="email">Όνομα</label>
+                                   <input type="text" class="form-control popup-form" placeholder="Όνομα" name="firstname" required>
+
+                               </div>
+
+                               <div class="form-group">
+                                   <label for="lastname" class="email">Επίθετο</label>
+                                   <input type="text" class="form-control popup-form" placeholder="Επίθετο" name="lastname" required>
+
+                               </div>
+
+                               <select name="university" class="form-control uni-control popup-form">
+                                  <option value="" disabled selected>Επιλέξτε Ίδρυμα</option>
+                                  <option value="ekpa">Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών</option>
+                                  <option value="ntua">Εθνικό Μετσόβειο Πολυτεχνείο</option>
+                                  <option value="aueb">Οικονομικό Πανεπιστήμιο Αθηνών</option>
+                                </select>
+                                <div class="d-none popup-form" id="ekpa-selection">
+                                    <select name="department" class="form-control">
+                                       <option value="" disabled selected>Επιλέξτε Τμήμα</option>
+                                       <option value="dit">Πληροφορικής και Τηλεπικοινωνιών</option>
+                                        <option value="math">Μαθηματικό</option>
+                                     </select>
+                                </div>
+                                <div class="d-none popup-form" id="aueb-selection">
+                                     <select class="form-control">
+                                         <option value="" disabled selected>Επιλέξτε Τμήμα</option>
+                                        <option value="dit2">Πληροφορικής και Τηλεματικής</option>
+                                        <option value="det">Διοίκηση Επιχειρήσεων</option>
+                                     </select>
+                                </div>
+                                <div class="d-none popup-form" id="ntua-selection">
+                                     <select class="form-control">
+                                         <option value="" disabled selected>Επιλέξτε Τμήμα</option>
+                                       <option value="hmmy">Ηλεκτρολόγων Μηχανικών - Μηχανικών Ηλ. Υπολογιστών</option>
+                                       <option value="mm">Μηχανολόγων Μηχανικών</option>
+                                     </select>
+                                </div>
+                           </div>
+                           <div class="d-none" id="publisher-extra-form">
+                               <div class="form-group popup-form publisher-control" id="publisher-name">
+                                   <label for="publisher_name" class="psw">Όνομα</label>
+                                   <input type="text" class="publisher-form-control" placeholder="Name" name="publisher_name" required>
+                               </div>
+
+                               <div class="form-group popup-form publisher-control" id="publisher-address">
+                                   <label for="publisher_address" class="psw">Διεύθυνση</label>
+                                   <input type="text" class="publisher-form-control" placeholder="Address" name="publisher_address" required>
+                               </div>
+                           </div>
+                           <div class="d-none" id="secretary-extra-form">
+                           </div>
+                           <div class="d-none" id="provider-extra-form">
+                           </div>
+                           <div class="d-none" id="distributor-extra-form">
+                           </div>
+                           <div class="d-none" id="library-extra-form">
+                           </div>
+                       </div>
+
+                       <div class="form-check">
+                           <button type="submit" class="btn btn-primary float-right" style="margin-top : 5px">Εγγραφή</button>
+                       </div>
+                   </form>
+               </div>
+               <div class="col-md-6 img-div">
+                  <img src="img/books.jpg" alt="">
+               </div>
+           </div>
+       </section>
+
+</body>
+
+</html>

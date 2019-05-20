@@ -1,0 +1,66 @@
+
+.profile{
+    min-height: 40vh;
+    display: inline-block;
+    /* background: #DE6262;  /* fallback for old browsers */ */ */
+    background: -webkit-linear-gradient(to bottom, #f5e1c8, #531010);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to bottom, #f5e1c8, #531010); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7*/ */
+    float:left;
+    width:100%;
+    padding : 22px 0;
+    background:#fff;
+    border-radius: 10px;
+    box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+    height: 100%;
+
+}
+
+.publisher{
+    min-height: 30vh;
+}
+
+.col-lg-12{
+    top: 4vh;
+}
+
+figcaption.ratings{
+    margin-top:20px;
+}
+
+figcaption.ratings a{
+    color:#f1c40f;
+    font-size:11px;
+}
+
+figcaption.ratings a:hover{
+    color:#f39c12;
+    text-decoration:none;
+}
+
+span.tags{
+    background: #1abc9c;
+    border-radius: 2px;
+    color: #f5f5f5;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+
+.navbar{
+    background-color: #b1deff;
+    height: 60px;
+}
+
+.col-xs-4{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.popup-form{
+    margin-top: 7px;
+}
+
+.publisher-control{
+    width: 80%;
+    margin-left: 20px;
+}

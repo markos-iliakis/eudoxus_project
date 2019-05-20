@@ -1,0 +1,39 @@
+.user-container{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 30px 30px;
+    padding: 0;
+    min-height: 25vh;
+    max-height: 25vh;
+    height: 25vh;
+    width: 25%;
+    display: inline-block;
+}
+
+.jumbotron {
+    padding-bottom: 26px;
+    padding-top: 35px;
+}
+
+.card{
+    display: inline-block;
+}
+
+.my-title{
+    background-color:#ededed;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    min-height: 7vh;
+    max-height: 7vh;
+    text-align: center;
+}
+
+.my-image{
+    min-height: 27vh;
+    max-height: 27vh;
+}
+
+#termsId{
+    padding-top: 20px;
+}
